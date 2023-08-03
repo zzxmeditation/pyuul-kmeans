@@ -1,0 +1,4 @@
+git config --global user.email "zzx66666699@gmail.com"
+git add . 
+git commit -m "test"
+git push origin main
