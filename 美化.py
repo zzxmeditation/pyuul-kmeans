@@ -23,10 +23,10 @@ random.seed(random_seed)
 torch.backends.cudnn.deterministic = True
 
 # Constants for file paths
-UPLOAD_FOLDER_PATH = r"C:\Users\ouc2023\Desktop\stream\lig"
-TMP_FOLDER_PATH = r"C:\Users\ouc2023\Desktop\stream\tmp"
-PDB_FOLDER_PATH = r"C:\Users\ouc2023\Desktop\stream\pdb"
-RESULT_CSV_PATH = r"C:\Users\ouc2023\Desktop\stream\kmeans-2.csv"
+UPLOAD_FOLDER_PATH = r"./lig"
+TMP_FOLDER_PATH = r"./tmp"
+PDB_FOLDER_PATH = r"./pdb"
+RESULT_CSV_PATH = r"./kmeans-2.csv"
 
 # Device selection
 device = "cuda"
